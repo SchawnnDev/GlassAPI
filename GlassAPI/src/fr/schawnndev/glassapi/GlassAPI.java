@@ -1,26 +1,19 @@
 package fr.schawnndev.glassapi;
 
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.plugin.java.JavaPlugin;
 
 import fr.schawnndev.glassapi.enums.Blocks;
 import fr.schawnndev.glassapi.enums.GlassColor;
 import fr.schawnndev.glassapi.enums.Blocks.MainBlocks;
 import fr.schawnndev.glassapi.enums.GlassColor.MainGlassColors;
 
-public class GlassAPI extends JavaPlugin {
+public class GlassAPI {
 	
 	static Blocks bl = Blocks.STAINED_GLASS;
 	static GlassColor cl = GlassColor.WHITE;
 	static int ant = 1;
 	static short dmg = 0;
 
-	public void onEnable() {
-	}
-
-	public void onDisable() {
-	}
-	
 	/*
 	 * 	How u use it? ItemStack name = new GlassApi(...,...).getBlock();
 	 * 	www.youtube.com/schawnndev

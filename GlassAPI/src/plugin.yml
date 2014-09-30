@@ -1,4 +1,4 @@
 name: GlassAPI
-main: fr.schawnndev.glassapi.GlassAPI
+main: fr.schawnndev.glassapi.Main
 author: SchawnnDev
 version: 1.0
