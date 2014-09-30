@@ -20,7 +20,12 @@ public class GlassAPI extends JavaPlugin {
 
 	public void onDisable() {
 	}
-
+	
+	/*
+	 * 	How u use it? ItemStack name = new GlassApi(...,...).getBlock();
+	 * 	www.youtube.com/schawnndev
+	 */
+	
 	public GlassAPI(Blocks block, GlassColor color) {
 		bl = block;
 		cl = color;
